@@ -1,0 +1,15 @@
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\bin\Debug\netstandard2.1\AccesoDatos.deps.json
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\bin\Debug\netstandard2.1\AccesoDatos.dll
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\bin\Debug\netstandard2.1\AccesoDatos.pdb
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\bin\Debug\netstandard2.1\Conexion.dll
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\bin\Debug\netstandard2.1\Modelos.dll
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\bin\Debug\netstandard2.1\Conexion.pdb
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\bin\Debug\netstandard2.1\Modelos.pdb
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.AssemblyInfo.cs
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.csproj.CopyComplete
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.dll
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.pdb

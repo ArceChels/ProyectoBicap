@@ -1,0 +1,10 @@
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\bin\Debug\netstandard2.1\Modelos.deps.json
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\bin\Debug\netstandard2.1\Modelos.dll
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\bin\Debug\netstandard2.1\Modelos.pdb
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstandard2.1\Modelos.csproj.AssemblyReference.cache
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstandard2.1\Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstandard2.1\Modelos.AssemblyInfoInputs.cache
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstandard2.1\Modelos.AssemblyInfo.cs
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstandard2.1\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstandard2.1\Modelos.dll
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstandard2.1\Modelos.pdb

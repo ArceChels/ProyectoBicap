@@ -1,0 +1,6 @@
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatosTests\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatosTests\obj\Debug\netcoreapp3.1\AccesoDatosTests.csproj.AssemblyReference.cache
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatosTests\obj\Debug\netcoreapp3.1\AccesoDatosTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatosTests\obj\Debug\netcoreapp3.1\AccesoDatosTests.AssemblyInfoInputs.cache
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatosTests\obj\Debug\netcoreapp3.1\AccesoDatosTests.AssemblyInfo.cs
+C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatosTests\obj\Debug\netcoreapp3.1\AccesoDatosTests.csproj.CoreCompileInputs.cache
