@@ -13,5 +13,7 @@ namespace Proyecto_Residencia.Acceso.Modelos
         public string NombreSecundaria { get; set; }
         public double Promedio { get; set; }
         public DateTime AnioTerminacion { get; set; }
+        public int IdTipoSecundaria { get; set; }
+        public int IdDireccion { get; set; }
     }
 }

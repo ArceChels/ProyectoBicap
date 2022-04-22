@@ -9,13 +9,13 @@ namespace Proyecto_Residencia.Acceso.Modelos
 {
     class ModeloEncuesta
     {
-        public int idEncuesta { get; set; }
-        public Boolean Computadora { get; set; }
-        public Boolean ServicioInternet { get; set; }
+        public int IdEncuesta { get; set; }
+        public bool Computadora { get; set; }
+        public bool ServicioInternet { get; set; }
         public string Compania { get; set; }
         public string TipoServicioInternet { get; set; }
         public string CondicionIntenet { get; set; }
-        public Boolean CursoBachilleratoAnterior { get; set; }
+        public bool CursoBachilleratoAnterior { get; set; }
         public string Lugar { get; set; }
     }
 }

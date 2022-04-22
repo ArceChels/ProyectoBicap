@@ -11,5 +11,6 @@ namespace Proyecto_Residencia.Acceso.Modelos
     {
         public int NumeroMunicipio { get; set; }
         public string NombreMunicipio { get; set; }
+        public int IdEstado { get; set; }
     }
 }

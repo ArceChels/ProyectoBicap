@@ -10,6 +10,8 @@ namespace Proyecto_Residencia.Acceso.Modelos
     public class ModeloTipoSecundaria
     {
         public int idTipoSecundaria { get; set; }
-        public string Tipo { get; set; }
+       public int CP { get; set; }
+       public string Barrio { get; set; }
+       public int IdLocalidad { get; set; }
     }
 }

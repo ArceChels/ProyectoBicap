@@ -1,31 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj": {}
+    "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj": {
+    "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj",
         "projectName": "Conexion",
-        "projectPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj",
-        "packagesPath": "C:\\Users\\aaril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\obj\\",
+        "projectPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aaril\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://sombrerogalaxy.eastus.cloudapp.azure.com/sg-nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,7 +9,8 @@ namespace Proyecto_Residencia.Acceso.Modelos
 {
     class ModeloLocalidad
     {
-        public int IdLocalid { get; set; }
-        public string Localidad { get; set; }
+        public int IdLocalidad { get; set; }
+        public string NombreLocalidad { get; set; }
+        public int NumeroMunicipio { get; set; }
     }
 }

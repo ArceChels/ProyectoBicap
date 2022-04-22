@@ -1,45 +1,46 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatosTests1\\AccesoDatosTests1.csproj": {}
+    "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatosTests1\\AccesoDatosTests1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatosTests1\\AccesoDatosTests1.csproj": {
+    "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatosTests1\\AccesoDatosTests1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatosTests1\\AccesoDatosTests1.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatosTests1\\AccesoDatosTests1.csproj",
         "projectName": "AccesoDatosTests1",
-        "projectPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatosTests1\\AccesoDatosTests1.csproj",
-        "packagesPath": "C:\\Users\\aaril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatosTests1\\obj\\",
+        "projectPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatosTests1\\AccesoDatosTests1.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatosTests1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aaril\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://sombrerogalaxy.eastus.cloudapp.azure.com/sg-nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatos\\AccesoDatos.csproj": {
-                "projectPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatos\\AccesoDatos.csproj"
+              "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatos\\AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatos\\AccesoDatos.csproj"
               },
-              "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj": {
-                "projectPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj"
+              "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj": {
+                "projectPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj"
               },
-              "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Modelos\\Modelos.csproj": {
-                "projectPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Modelos\\Modelos.csproj"
+              "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Modelos\\Modelos.csproj": {
+                "projectPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Modelos\\Modelos.csproj"
               }
             }
           }
@@ -86,43 +87,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatos\\AccesoDatos.csproj": {
+    "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatos\\AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatos\\AccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatos\\AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatos\\AccesoDatos.csproj",
-        "packagesPath": "C:\\Users\\aaril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\AccesoDatos\\obj\\",
+        "projectPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatos\\AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aaril\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://sombrerogalaxy.eastus.cloudapp.azure.com/sg-nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj": {
-                "projectPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj"
+              "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj": {
+                "projectPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj"
               },
-              "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Modelos\\Modelos.csproj": {
-                "projectPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Modelos\\Modelos.csproj"
+              "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Modelos\\Modelos.csproj": {
+                "projectPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Modelos\\Modelos.csproj"
               }
             }
           }
@@ -157,32 +159,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj": {
+    "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj",
         "projectName": "Conexion",
-        "projectPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\Conexion.csproj",
-        "packagesPath": "C:\\Users\\aaril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Conexion\\obj\\",
+        "projectPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\Conexion.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Conexion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aaril\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://sombrerogalaxy.eastus.cloudapp.azure.com/sg-nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -215,32 +218,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Modelos\\Modelos.csproj": {
+    "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Modelos\\Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Modelos\\Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Modelos\\Modelos.csproj",
         "projectName": "Modelos",
-        "projectPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Modelos\\Modelos.csproj",
-        "packagesPath": "C:\\Users\\aaril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaril\\Desktop\\Residencia\\Proyecto_Residencia\\Modelos\\obj\\",
+        "projectPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Modelos\\Modelos.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Desktop\\Proyecto Arce\\ProyectoBicap\\Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aaril\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://sombrerogalaxy.eastus.cloudapp.azure.com/sg-nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -273,7 +277,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
