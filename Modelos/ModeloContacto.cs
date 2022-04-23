@@ -7,7 +7,7 @@
 
 namespace Proyecto_Residencia.Acceso.Modelos
 {
-    class ModeloContacto
+    public class ModeloContacto
     {
         public int IdContacto { get; set; }
         public string Telefono { get; set; }

@@ -7,7 +7,7 @@
 
 namespace Proyecto_Residencia.Acceso.Modelos
 {
-    class ModeloPadreFamiliaTutor
+    public class ModeloPadreFamiliaTutor
     {
         public int IdPadreFamilia { get; set; }
         public string Nombre { get; set; }

@@ -1,5 +1,5 @@
 ﻿//-------------------------------------------------------------------------------------------------------------------
-//  Autor: Arcelia Isabel Perez Vasquez                 Descripción: Modelo de la tabla usuario                     |
+//  Autor: Arcelia Isabel Perez Vasquez                 Descripción: Modelo de la tabla empleados                     |
 //  Fecha: 22 de Abril de 2022                              Hora: 17:06 hrs                                             |
 //-------------------------------------------------------------------------------------------------------------------
 

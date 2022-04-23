@@ -7,7 +7,7 @@
 
 namespace Proyecto_Residencia.Acceso.Modelos
 {
-    class ModeloDireccion
+    public class ModeloDireccion
     {
         public int IdDireccion { get; set; }
         public int CodigoPostal { get; set; }

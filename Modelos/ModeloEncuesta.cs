@@ -7,7 +7,7 @@
 
 namespace Proyecto_Residencia.Acceso.Modelos
 {
-    class ModeloEncuesta
+    public class ModeloEncuesta
     {
         public string IdEncuesta { get; set; }
         public bool Computadora { get; set; }

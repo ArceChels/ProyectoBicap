@@ -1,5 +1,5 @@
 ﻿//-------------------------------------------------------------------------------------------------------------------
-//  Autor: Arcelia Isabel Perez Vasquez                 Descripción: Modelo de la tabla usuario                     |
+//  Autor: Arcelia Isabel Perez Vasquez                 Descripción: Modelo de la tabla rol usuario                     |
 //  Fecha: 19 de Abril de 2022                              Hora: 18:49 hrs                                             |
 //-------------------------------------------------------------------------------------------------------------------
 

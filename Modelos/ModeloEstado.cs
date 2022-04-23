@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿//-------------------------------------------------------------------------------------------------------------------
+//  Autor: Arcelia Isabel Perez Vasquez                 Descripción: Modelo de la tabla estado                  |
+//  Fecha: 22 de Abril de 2022                              Hora: 17:31 hrs                                             |
+//-------------------------------------------------------------------------------------------------------------------
 
-namespace Modelos
+namespace Proyecto_Residencia.Acceso.Modelos
 {
-    class ModeloEstado
+    public class ModeloEstado
     {
+        public int IdEstado { get; set; }
+        public string NombreEstado { get; set; }
     }
 }

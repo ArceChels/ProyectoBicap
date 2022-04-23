@@ -7,7 +7,7 @@
 
 namespace Proyecto_Residencia.Acceso.Modelos
 {
-    class ModeloAlumno
+    public class ModeloAlumno
     {
         public string Matricula { get; set; }
         public string Nombre { get; set; }
