@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using Proyecto_Residencia.Acceso.Conexion;
 using Proyecto_Residencia.Acceso.Modelos;
 using System.Data.SqlClient;
@@ -44,20 +43,19 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
                         comando.Parameters["@RolUsuario"].Value = modelo.RolUsuario;
                         comando.Parameters.Add("@Estatus", SqlDbType.Bit);
                         comando.Parameters["@Estatus"].Value = modelo.Estatus;
+                        comando.Parameters.Add("@Acceso", SqlDbType.VarChar);
+                        comando.Parameters["@Acceso"].Value = modelo.Acceso;
+                        comando.Parameters.Add("@Salida", SqlDbType.VarChar, 1000).Direction = ParameterDirection.Output;
 
-                        int response = comando.ExecuteNonQuery();
-                        if (response > 0)
-                            respuesta += "¡El usuario se ha guardado satisfactoriamente!";
-                        else
-                            respuesta += "Ocurrió un error, intente nuevamente";
-
+                        comando.ExecuteNonQuery();
+                        respuesta += comando.Parameters["@Salida"].Value.ToString();
                         return respuesta;
                     }
                 }
             }
             catch(Exception ex)
             {
-                respuesta += ex.Message;
+                respuesta += "¡Ocurrió un error al insertar!\n" + ex.Message;
                 return respuesta;
             }
         }
@@ -83,12 +81,10 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
 
                         comando.Parameters.Add("@IdUsuario", SqlDbType.Int);
                         comando.Parameters["@IdUsuario"].Value = modelo.IdUsuario;
+                        comando.Parameters.Add("@Salida", SqlDbType.VarChar, 1000).Direction = ParameterDirection.Output;
 
-                        int response = comando.ExecuteNonQuery();
-                        if (response > 0)
-                            respuesta += "¡El usuario se ha eliminado satisfactoriamente!";
-                        else
-                            respuesta += "Ocurrió un error al eliminar, intente nuevamente";
+                        comando.ExecuteNonQuery();
+                        respuesta = comando.Parameters["@Salida"].Value.ToString();
 
                         return respuesta;
                     }
@@ -96,7 +92,7 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
             }
             catch (Exception ex)
             {
-                respuesta += ex.Message;
+                respuesta += "No se pudo eliminar por el siguiente error:\n" + ex.Message;
                 return respuesta;
             }
         }
@@ -133,11 +129,12 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
                         comando.Parameters["@RolUsuario"].Value = modelo.RolUsuario;
                         comando.Parameters.Add("@Estatus", SqlDbType.Bit);
                         comando.Parameters["@Estatus"].Value = modelo.Estatus;
-                        int response = comando.ExecuteNonQuery();
-                        if (response > 0)
-                            respuesta += "¡El usuario se ha Actualizado satisfactoriamente!";
-                        else
-                            respuesta += "Ocurrió un error al eliminar, intente nuevamente";
+                        comando.Parameters.Add("@Acceso", SqlDbType.VarChar);
+                        comando.Parameters["@Acceso"].Value = modelo.Acceso;
+                        comando.Parameters.Add("@Salida", SqlDbType.VarChar, 1000).Direction = ParameterDirection.Output;
+
+                        comando.ExecuteNonQuery();
+                        respuesta += comando.Parameters["@Salida"].Value.ToString();
 
                         return respuesta;
                     }
@@ -148,7 +145,6 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
                 respuesta += ex.Message;
                 return respuesta;
             }
-
         }
 
 
@@ -159,11 +155,17 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
 
         //BUSQUEDA PERSONALIZADA
 
-        private ModeloUsuario ObtenerUnaFila(SqlDataReader lector) 
+        private ModeloUsuario ObtenerUnaFila(SqlDataReader lector)
         {
             ModeloUsuario usuario = new ModeloUsuario();
-            if (!Convert.IsDBNull(lector["Usuario"])) { usuario.Usuario = lector["Usuario"].ToString(); }
+            if (!Convert.IsDBNull(lector["IdUsuario"])) { usuario.IdUsuario = lector["IdUsuario"].ToString(); }
+            else { usuario.IdUsuario = "Null"; }
+
+            if (!Convert.IsDBNull(lector["IdUsuario"])) { usuario.Usuario = lector["Usuario"].ToString(); }
             else { usuario.Usuario = "Null"; }
+
+            if (!Convert.IsDBNull(lector["Contrasena"])) { usuario.Contrasena = lector["Contrasena"].ToString(); }
+            else { usuario.Contrasena = "Null"; }
 
             if (!Convert.IsDBNull(lector["Email"])) { usuario.Email = lector["Email"].ToString(); }
             else { usuario.Email = "Null"; }
@@ -171,8 +173,12 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
             if (!Convert.IsDBNull(lector["RolUsuario"])) { usuario.RolUsuario = lector["RolUsuario"].ToString(); }
             else { usuario.RolUsuario = "Null"; }
 
-            if (!Convert.IsDBNull(lector["Estatus"])) { usuario.RolUsuario = lector["Estatus"].ToString(); }
-            else { usuario.RolUsuario = "Null"; }
+            if (!Convert.IsDBNull(lector["Estatus"])) { usuario.Estatus = lector["Estatus"].ToString(); }
+            else { usuario.Estatus = "Null"; }
+
+            if (!Convert.IsDBNull(lector["Acceso"])) { usuario.Acceso = lector["Estatus"].ToString(); }
+            else { usuario.Acceso = "Null"; }
+
             return usuario;
         }
 
@@ -192,7 +198,6 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
 
         public List<ModeloUsuario> ConsultaPersonalizada(ModeloUsuario modelo)
         {
-            string respuesta = "";
             string procedimiento = "Leer_Usuario";
             List<ModeloUsuario> lista = new List<ModeloUsuario>();
 
@@ -223,8 +228,7 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
             }
             catch (Exception ex)
             {
-                respuesta += "Ha ocurrido un error en la lectura de datos del usuario, Error: " + ex.Message;
-                throw new Exception(respuesta);
+                throw new Exception(ex.Message);
             }
         }
 
