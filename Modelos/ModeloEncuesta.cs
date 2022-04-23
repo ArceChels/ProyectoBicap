@@ -9,8 +9,9 @@ namespace Proyecto_Residencia.Acceso.Modelos
 {
     class ModeloEncuesta
     {
-        public int IdEncuesta { get; set; }
+        public string IdEncuesta { get; set; }
         public bool Computadora { get; set; }
+        public bool Celular { get; set; }
         public bool ServicioInternet { get; set; }
         public string Compania { get; set; }
         public string TipoServicioInternet { get; set; }

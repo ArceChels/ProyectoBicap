@@ -9,7 +9,7 @@ namespace Proyecto_Residencia.Acceso.Modelos
 {
     class ModeloAlumno
     {
-        public int Matricula { get; set; }
+        public string Matricula { get; set; }
         public string Nombre { get; set; }
         public string ApellidoPaterno { get; set; }
         public string ApellidoMaterno { get; set; }
@@ -23,7 +23,16 @@ namespace Proyecto_Residencia.Acceso.Modelos
         public Boolean RolAlumno { get; set; }
         public string TipoBeca { get; set; }
         public byte[] FotoPerfil { get; set; }
-
+        public bool Estatus { get; set; }
+        public bool EsNuevoIngreso { get; set; }
+        public string IdMateria { get; set; }
+        public string IdDatosMedicos { get; set; }
+        public string IdEncuesta { get; set; }
+        public string IdDocumentos { get; set; }
+        public string IdDireccion { get; set; }
+        public string Clave { get; set; }
+        public string IdContacto { get; set; }
+        public string IdPadreFamilia { get; set; }
 
     }
 }
