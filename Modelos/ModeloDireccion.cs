@@ -10,9 +10,12 @@ namespace Proyecto_Residencia.Acceso.Modelos
     public class ModeloDireccion
     {
         public int IdDireccion { get; set; }
-        public int CodigoPostal { get; set; }
-        public string Barrio { get; set; }
-        public int IdLocaligag { get; set; }
+        public string Calle { get; set; }
+        public int NumeroInt { get; set; }
+        public int NumeroExt { get; set; }
+        public string Colonia { get; set; }
+        public int CP { get; set; }
+        public string Referecias { get; set; }  
 
     }
 }

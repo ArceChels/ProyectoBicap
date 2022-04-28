@@ -14,5 +14,9 @@ namespace Proyecto_Residencia.Acceso.Modelos
         public string ApellidoPaterno { get; set; }
         public string ApellidoMaterno { get; set; }
         public string Familiaridad { get; set; }
+        public string Telefono { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+        public string Oficio { get; set; }
+        public string Direccion { get; set; }   
     }
 }

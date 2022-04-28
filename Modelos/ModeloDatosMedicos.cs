@@ -13,5 +13,7 @@ namespace Proyecto_Residencia.Acceso.Modelos
         public string Discapacidad { get; set; }
         public DateTime FechaRegistro { get; set; }
         public string TipoSanguineo { get; set; }
+        public string Observacion { get; set; }     
+
     }
 }

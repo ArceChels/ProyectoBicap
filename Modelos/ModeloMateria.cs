@@ -13,6 +13,8 @@ namespace Proyecto_Residencia.Acceso.Modelos
         public string NombreMateria { get; set; }
         public string Grupo { get; set; }
         public string Grado { get; set; }
+        public double CalificacionBimestral { get; set; }   
+        public int IdBimestre { get; set; } 
         public double CalificacionFinal { get; set; }
         public bool Aprobado { get; set; }
         public int IdRecuperacion { get; set; }

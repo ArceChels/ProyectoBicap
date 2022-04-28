@@ -15,6 +15,7 @@ namespace Proyecto_Residencia.Acceso.Modelos
         public string ApellidoMaterno { get; set; }
         public string Sexo { get; set; }
         public string Curp { get; set; }
+        public string Correo { get; set; }      
         public string LugarNacimiento { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public string GrupoEtnico { get; set; }
