@@ -13,3 +13,18 @@ C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\nets
 C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.csproj.CopyComplete
 C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.dll
 C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.pdb
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\bin\Debug\netstandard2.1\AccesoDatos.deps.json
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\bin\Debug\netstandard2.1\AccesoDatos.dll
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\bin\Debug\netstandard2.1\AccesoDatos.pdb
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\bin\Debug\netstandard2.1\Conexion.dll
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\bin\Debug\netstandard2.1\Modelos.dll
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\bin\Debug\netstandard2.1\Conexion.pdb
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\bin\Debug\netstandard2.1\Modelos.pdb
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.AssemblyInfo.cs
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.csproj.CopyComplete
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.dll
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\AccesoDatos\obj\Debug\netstandard2.1\AccesoDatos.pdb

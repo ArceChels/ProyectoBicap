@@ -8,3 +8,13 @@ C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstand
 C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstandard2.1\Modelos.csproj.CoreCompileInputs.cache
 C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstandard2.1\Modelos.dll
 C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Modelos\obj\Debug\netstandard2.1\Modelos.pdb
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Modelos\bin\Debug\netstandard2.1\Modelos.deps.json
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Modelos\bin\Debug\netstandard2.1\Modelos.dll
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Modelos\bin\Debug\netstandard2.1\Modelos.pdb
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Modelos\obj\Debug\netstandard2.1\Modelos.csproj.AssemblyReference.cache
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Modelos\obj\Debug\netstandard2.1\Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Modelos\obj\Debug\netstandard2.1\Modelos.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Modelos\obj\Debug\netstandard2.1\Modelos.AssemblyInfo.cs
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Modelos\obj\Debug\netstandard2.1\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Modelos\obj\Debug\netstandard2.1\Modelos.dll
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Modelos\obj\Debug\netstandard2.1\Modelos.pdb

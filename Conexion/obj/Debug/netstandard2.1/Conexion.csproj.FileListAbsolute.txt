@@ -8,3 +8,13 @@ C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Conexion\obj\Debug\netstan
 C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Conexion\obj\Debug\netstandard2.1\Conexion.csproj.CoreCompileInputs.cache
 C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Conexion\obj\Debug\netstandard2.1\Conexion.dll
 C:\Users\aaril\Desktop\Residencia\Proyecto_Residencia\Conexion\obj\Debug\netstandard2.1\Conexion.pdb
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Conexion\bin\Debug\netstandard2.1\Conexion.deps.json
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Conexion\bin\Debug\netstandard2.1\Conexion.dll
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Conexion\bin\Debug\netstandard2.1\Conexion.pdb
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Conexion\obj\Debug\netstandard2.1\Conexion.csproj.AssemblyReference.cache
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Conexion\obj\Debug\netstandard2.1\Conexion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Conexion\obj\Debug\netstandard2.1\Conexion.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Conexion\obj\Debug\netstandard2.1\Conexion.AssemblyInfo.cs
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Conexion\obj\Debug\netstandard2.1\Conexion.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Conexion\obj\Debug\netstandard2.1\Conexion.dll
+C:\Users\anton\Desktop\Proyecto Arce\ProyectoBicap\Conexion\obj\Debug\netstandard2.1\Conexion.pdb

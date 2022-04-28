@@ -31,7 +31,7 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos.Tests
             Usuario Us = new Usuario();
             ModeloUsuario modelo = new ModeloUsuario()
             {
-                IdUsuario = 2
+               // IdUsuario = 2
             };
             Us.Eliminar(modelo);
             //Assert.Fail();
@@ -43,7 +43,7 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos.Tests
             Usuario Us = new Usuario();
             ModeloUsuario modelo = new ModeloUsuario()
             {
-                IdUsuario = 2,
+               // IdUsuario = 2,
                 Usuario = "Isabel",
                 Contrasena = "6789",
                 Email = "isabel@hotmail.com",
@@ -60,7 +60,7 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos.Tests
             Usuario Us = new Usuario();
             ModeloUsuario modelo = new ModeloUsuario()
             {
-                IdUsuario = 8
+              //  IdUsuario = 8
             };
             Us.ConsultaPersonalizada(modelo);          
         }
