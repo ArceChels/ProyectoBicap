@@ -196,7 +196,7 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
         }
 
 
-        public List<ModeloUsuario> ConsultaPersonalizada(ModeloUsuario modelo)
+        public List<ModeloUsuario> ConsultaGeneral()
         {
             string procedimiento = "Leer_Usuario";
             List<ModeloUsuario> lista = new List<ModeloUsuario>();
@@ -213,9 +213,6 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
                         comando.Connection = conexion;
                         comando.CommandText = procedimiento;
                         comando.CommandType = CommandType.StoredProcedure;
-
-                        comando.Parameters.Add("@IdUsuario", SqlDbType.Int);
-                        comando.Parameters["@IdUsuario"].Value = modelo.IdUsuario;
 
                         using(SqlDataReader lector= comando.ExecuteReader())
                         {
