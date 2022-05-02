@@ -18,7 +18,7 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
         public string Insertar (ModeloUsuario modelo)
         {
             string respuesta = "";
-            string procedimiento = "Insertar_Usuario";
+            string procedimiento = "SP_InsertarUsuarios";
 
             try
             {
@@ -33,6 +33,8 @@ namespace Proyecto_Residencia.Acceso.AccesoDatos
                         comando.CommandText = procedimiento;
                         comando.CommandType = CommandType.StoredProcedure;
 
+                        comando.Parameters.Add("@IdUsuario", SqlDbType.VarChar);
+                        comando.Parameters["@IdUsuario"].Value = modelo.IdUsuario;
                         comando.Parameters.Add("@Usuario", SqlDbType.VarChar);
                         comando.Parameters["@Usuario"].Value = modelo.Usuario;
                         comando.Parameters.Add("@Contrasena", SqlDbType.VarChar);
